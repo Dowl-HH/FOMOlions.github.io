@@ -144,10 +144,6 @@ a {
     margin-left: 85px;
 }
 
-.fragment2__wrapper {}
-
-.fragment3__wrapper {}
-
 .fragment2__card {
     background: #C7FFD0;
     box-shadow: 10px 10px 0px #000000;
@@ -333,12 +329,18 @@ a {
     justify-content: center;
 }
 
-.foot-dis :hover {
-    path: white;
-}
-
 .footer__twitter {
     margin-right: 40px;
+}
+
+.footer__twitter:hover path{
+    fill: white;
+    transition: 0.2s;
+}
+
+.footer__discord:hover path:last-child{
+    fill: white;
+    transition: 0.2s;
 }
 
 .footer__title {
