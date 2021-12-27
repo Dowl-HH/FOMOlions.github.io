@@ -29,7 +29,7 @@ a {
     /* padding-top: 250px;
     padding-bottom: 350px; */
     text-align: center;
-    padding-top: 150px;
+    padding-top: 120px;
 }
 
 .nav {
@@ -55,7 +55,7 @@ a {
 
 .nav__social {
     display: flex;
-    margin-right: 18px;
+    margin-right: 45px;
 }
 
 .header__twitter {
@@ -102,10 +102,6 @@ a {
 
 .nav__items:last-child {
     margin-right: 0;
-}
-
-.ticker {
-    padding-top: 211px;
 }
 
 .carousel {
@@ -371,6 +367,7 @@ a {
     margin: auto;
     overflow: hidden;
     position: relative;
+    padding-top: 235px;
 }
 
 .ticker::before,
@@ -399,7 +396,7 @@ a {
     width: calc(250px * 14);
 }
 
-.ticker .ticker-шеуь {
-    height: 100px;
-    width: 250px;
+.ticker .ticker__item {
+    height: 200px;
+    width: 200px;
 }
