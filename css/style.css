@@ -32,6 +32,15 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 44px;
+}
+
+.nav__links {
+    padding-left: 140px;
+}
+
+.nav__items:hover {
+    color: #FFEFD0;
 }
 
 .team__header-title {
@@ -146,12 +155,7 @@ a {
 }
 
 .banner {
-    background: url("../images/banner/плашка\ 4.png");
-    background-repeat: no-repeat;
-    background-position: center top;
 
-    display: flex;
-    flex-direction: column;
 }
 
 .banner__tytle {
