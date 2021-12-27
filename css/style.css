@@ -1,0 +1,250 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-image {
+    background-image: url("../images/back.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+.header {
+    /* padding-top: 250px;
+    padding-bottom: 350px; */
+    text-align: center;
+}
+
+.header__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 96px;
+    color: #fff;
+    text-align: center;
+}
+
+.team__header-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.nav__items {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.lore {}
+
+.frag__image {
+    width: auto;
+    max-height: 100%;
+}
+
+.frag__card {
+    /* max-width: 762px;
+    padding: 10px 50px 24px 45px; */
+}
+
+.frag__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.frag__image-wrapper {
+    height: fit-content;
+    margin-right: 46px;
+}
+
+.fragment1__card {
+    background: url("../images/lore/плашка\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+.fragment2__card {
+    background: url("../images/lore/плашка\ 2.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+.fragment3__card {
+    background: url("../images/lore/плашка\ 3.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+.fragment__card-title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.fragment__card-text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.banner {
+    background: url("../images/banner/плашка\ 4.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__tytle {
+    font-family: Press Start 2P;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.banner__text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.raodmap__title {
+    font-family: Press Start 2P;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.roadmap__list {
+    text-align: left;
+}
+
+.roadmap__list-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.roadmap__list-item:last-child {
+    margin-bottom: 0;
+}
+
+.roadmap__list-item-percent {
+    font-family: Press Start 2P;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFEFD0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.roadmap__list-item-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.team__list {
+    display: flex;
+}
+
+.team__list-item {
+    margin-right: 50px;
+}
+
+.team__list-item:last-child {
+    margin-right: 0;
+}
+
+.team__title {
+    font-family: Press Start 2P;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-left: 300px;
+}
+
+.team__list-item-position {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.team__list-item-name {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.footer__socials {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__twitter {
+    margin-right: 40px;
+}
+
+.footer__title {
+    font-family: Press Start 2P;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
