@@ -124,7 +124,6 @@ a {
 
 .frag__wrapper {
     display: flex;
-    justify-content: space-between;
     margin-bottom: 110px;
 }
 
@@ -163,6 +162,10 @@ a {
     background: #FFEFD0;
     box-shadow: 10px 10px 0px #000000;
     padding: 0 40px 0 40px;
+}
+
+.fragment3__wrapper{
+    margin-left: 70px
 }
 
 .fragment__card-title {
@@ -218,7 +221,6 @@ a {
 }
 
 .raodmap__title {
-    font-family: Press Start 2P;
     font-style: normal;
     font-weight: normal;
     font-size: 72px;
@@ -226,6 +228,7 @@ a {
     color: #FFFFFF;
     text-align: center;
     text-shadow: 5px 5px #000000;
+    margin-bottom: 110px;
 }
 
 .roadmap__list {
@@ -237,7 +240,7 @@ a {
 .roadmap__list-item {
     display: flex;
     flex-direction: row;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .roadmap__list-item:last-child {
@@ -245,7 +248,6 @@ a {
 }
 
 .roadmap__list-item-percent {
-    font-family: Press Start 2P;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
@@ -293,7 +295,6 @@ a {
 }
 
 .team__title {
-    font-family: Press Start 2P;
     font-style: normal;
     font-weight: normal;
     font-size: 72px;
@@ -348,7 +349,6 @@ a {
 }
 
 .footer__title {
-    font-family: Press Start 2P;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
