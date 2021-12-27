@@ -94,6 +94,11 @@ a {
 .frag__wrapper {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 110px;
+}
+
+.frag__wrapper:last-child {
+    margin-bottom: 0;
 }
 
 .frag__image-wrapper {
@@ -102,24 +107,15 @@ a {
 }
 
 .fragment1__card {
-    background: url("../images/lore/плашка\ 1.png");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
+    margin-right: 136px;
 }
 
-.fragment2__card {
-    background: url("../images/lore/плашка\ 2.png");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
+.fragment2__image-wrapper {
+    margin-right: 136px;
 }
 
 .fragment3__card {
-    background: url("../images/lore/плашка\ 3.png");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
+    margin-right: 136px;
 }
 
 .fragment__card-title {
