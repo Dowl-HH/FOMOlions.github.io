@@ -25,6 +25,26 @@ a {
     /* padding-top: 250px;
     padding-bottom: 350px; */
     text-align: center;
+    padding-top: 203px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team__header-title {
+    margin-left: 80px;
+}
+
+.nav__social {
+    display: flex;
+    margin-right: 80px;
+}
+
+.header__twitter {
+    margin-right: 50px;
 }
 
 .header__title {
@@ -51,18 +71,24 @@ a {
     font-size: 24px;
     line-height: 29px;
     color: #FFFFFF;
+    margin-right: 100px;
 }
 
-.lore {}
+.nav__items:last-child {
+    margin-right: 0;
+}
+
+.ticker {
+    padding-top: 295px;
+}
+
+.lore {
+    padding-top: 259px;
+}
 
 .frag__image {
     width: auto;
     max-height: 100%;
-}
-
-.frag__card {
-    /* max-width: 762px;
-    padding: 10px 50px 24px 45px; */
 }
 
 .frag__wrapper {
@@ -114,6 +140,10 @@ a {
     color: #000000;
 }
 
+.one-banner {
+    padding-top: 240px;
+}
+
 .banner {
     background: url("../images/banner/плашка\ 4.png");
     background-repeat: no-repeat;
@@ -141,6 +171,10 @@ a {
     color: #000000;
 }
 
+.roadmap {
+    padding-top: 240px;
+}
+
 .raodmap__title {
     font-family: Press Start 2P;
     font-style: normal;
@@ -152,12 +186,15 @@ a {
 }
 
 .roadmap__list {
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
 }
 
 .roadmap__list-item {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    margin-bottom: 50px;
 }
 
 .roadmap__list-item:last-child {
@@ -186,10 +223,16 @@ a {
     display: flex;
     align-items: center;
     flex-direction: row;
+    margin-left: 50px;
+}
+
+.team {
+    padding-top: 240px;
 }
 
 .team__list {
     display: flex;
+    margin-top: 120px;
 }
 
 .team__list-item {
@@ -231,6 +274,10 @@ a {
     text-align: center;
 }
 
+.footer{
+    margin-top: 130px;
+}
+
 .footer__socials {
     display: flex;
     justify-content: center;
@@ -247,4 +294,6 @@ a {
     font-size: 24px;
     line-height: 24px;
     color: #FFFFFF;
+    padding-top: 20px;
 }
+
