@@ -275,7 +275,7 @@ a {
     text-align: center;
 }
 
-.footer{
+.footer {
     margin-top: 130px;
 }
 
@@ -301,37 +301,45 @@ a {
 @keyframes scroll {
     0% {
         transform: translateX(0);
-   }
+    }
+
     100% {
         transform: translateX(calc(-250px * 7));
-   }
+    }
 }
+
 .ticker {
     margin: auto;
     overflow: hidden;
     position: relative;
 }
-.ticker::before, .ticker::after {
+
+.ticker::before,
+.ticker::after {
     content: "";
     height: 100px;
     position: absolute;
     width: 200px;
     z-index: 2;
 }
+
 .ticker::after {
     right: 0;
     top: 0;
     transform: rotateZ(180deg);
 }
+
 .ticker::before {
     left: 0;
     top: 0;
 }
+
 .ticker .carousel {
     animation: scroll 20s linear infinite;
     display: flex;
     width: calc(250px * 14);
 }
+
 .ticker .ticker-шеуь {
     height: 100px;
     width: 250px;
