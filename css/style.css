@@ -25,14 +25,14 @@ a {
     /* padding-top: 250px;
     padding-bottom: 350px; */
     text-align: center;
-    padding-top: 203px;
+    padding-top: 150px;
 }
 
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 44px;
+    padding-top: 30px;
 }
 
 .nav__links {
@@ -41,19 +41,31 @@ a {
 
 .nav__items:hover {
     color: #FFEFD0;
+    transition: 0.3s;
 }
 
 .team__header-title {
     margin-left: 80px;
+    cursor: default;
 }
 
 .nav__social {
     display: flex;
-    margin-right: 80px;
+    margin-right: 18px;
 }
 
 .header__twitter {
     margin-right: 50px;
+}
+
+.head-dis :hover {
+    fill: #FFEFD0;
+    transition: 0.3s;
+}
+
+.head-twi :hover {
+    fill: #FFEFD0;
+    transition: 0.3s;
 }
 
 .header__title {
@@ -63,6 +75,7 @@ a {
     line-height: 96px;
     color: #fff;
     text-align: center;
+    text-shadow: 5px 5px #000000;
 }
 
 .team__header-title {
@@ -88,7 +101,7 @@ a {
 }
 
 .ticker {
-    padding-top: 295px;
+    padding-top: 211px;
 }
 
 .carousel {
@@ -122,6 +135,23 @@ a {
 
 .fragment1__card {
     margin-right: 136px;
+    background: #BBDEFF;
+    box-shadow: 10px 10px 0px #000000;
+    padding: 0 40px 0 40px;
+}
+
+.fragment1__wrapper {
+    margin-left: 85px;
+}
+
+.fragment2__wrapper {}
+
+.fragment3__wrapper {}
+
+.fragment2__card {
+    background: #C7FFD0;
+    box-shadow: 10px 10px 0px #000000;
+    padding: 0 40px 0 40px;
 }
 
 .fragment2__image-wrapper {
@@ -130,6 +160,9 @@ a {
 
 .fragment3__card {
     margin-right: 136px;
+    background: #FFEFD0;
+    box-shadow: 10px 10px 0px #000000;
+    padding: 0 40px 0 40px;
 }
 
 .fragment__card-title {
@@ -151,11 +184,15 @@ a {
 }
 
 .one-banner {
-    padding-top: 240px;
+    margin-top: 240px;
+    display: flex;
+    background-color: #E8BEFF;
+    box-shadow: 10px 10px 0px #000000;
+    padding: 30px 50px 84px 40px;
 }
 
-.banner {
-
+.banner__image {
+    padding: 58px 0 0 84px;
 }
 
 .banner__tytle {
@@ -188,6 +225,7 @@ a {
     line-height: 72px;
     color: #FFFFFF;
     text-align: center;
+    text-shadow: 5px 5px #000000;
 }
 
 .roadmap__list {
@@ -216,6 +254,11 @@ a {
     display: flex;
     align-items: center;
     flex-direction: row;
+    padding-right: 50px;
+}
+
+.roadmap__list-item-percent:last-child {
+    padding-right: 0px;
 }
 
 .roadmap__list-item-text {
@@ -228,8 +271,12 @@ a {
     display: flex;
     align-items: center;
     flex-direction: row;
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
+
+/* .roadmap__list-item-text:last-child {
+    padding-left: 30px;
+} */
 
 .team {
     padding-top: 240px;
@@ -257,6 +304,7 @@ a {
     color: #FFFFFF;
     text-align: left;
     margin-left: 300px;
+    text-shadow: 5px 5px #000000;
 }
 
 .team__list-item-position {
@@ -286,6 +334,10 @@ a {
 .footer__socials {
     display: flex;
     justify-content: center;
+}
+
+.foot-dis :hover {
+    path: white;
 }
 
 .footer__twitter {
